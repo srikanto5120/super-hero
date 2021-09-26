@@ -1,6 +1,12 @@
-.cart-icon {
-  text-align: center;
-  color: antiquewhite;
+.cart-heading {
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  height: 120px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: -6px 0px 8px rgb(148, 145, 145);
 }
 .hired-btn {
   background-color: #708090;
@@ -9,4 +15,7 @@
   border-radius: 5px;
   border: 1px solid gray;
   cursor: pointer;
+}
+.selected-employe {
+  font-size: 12px;
 }

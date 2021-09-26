@@ -11,10 +11,12 @@ const Cart = (props) => {
   );
   return (
     <div>
-      <h1 className="cart-icon">
-        Cart: <i className="fas fa-shopping-cart"></i>
-      </h1>
-      <p> Total Amount $:{totalSelery.toFixed(2)}</p>
+      <div className="cart-heading">
+        <h5>Your Company Managment Team</h5>
+        <p className="selected-employe"> Employes:{carts.length}</p>
+
+        <p> Total Amount $:{totalSelery.toFixed(2)}</p>
+      </div>
       {carts.map((cartName) => (
         <ShowName key={cartName.key} cartName={cartName}></ShowName>
       ))}

@@ -2,10 +2,22 @@
   display: flex;
   gap: 20px;
   align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: -6px 0px 8px rgb(148, 145, 145);
+}
+.cart small {
+  font-size: 10px;
 }
 .cart-img {
   width: 40px;
   height: 40px;
 
   border-radius: 50%;
+}
+.cheak {
+  color: rgb(14, 172, 235);
 }

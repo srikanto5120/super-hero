@@ -16,7 +16,7 @@ const Employe = (props) => {
       <p>Age:{age}</p>
       <p>Country:{country}</p>
       <p>Avarage Salery :$ {selary} per month </p>
-      <span>
+      <span className="icon">
         <i className="fab fa-facebook"></i>
         <i className="fab fa-linkedin"></i>
       </span>

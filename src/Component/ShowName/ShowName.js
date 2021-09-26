@@ -7,7 +7,13 @@ const ShowName = (props) => {
   return (
     <div className="cart">
       <img className="cart-img" src={cartName.img} alt="" />
-      <p> {cartName.name}</p>
+      <div>
+        <p> {cartName.name}</p>
+        <p>
+          <small>{cartName.skill}</small>
+        </p>
+        <i className="far cheak fa-check-circle"></i>
+      </div>
     </div>
   );
 };

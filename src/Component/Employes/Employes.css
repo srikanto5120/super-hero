@@ -9,10 +9,12 @@
 }
 .cart-container {
   width: 20%;
-  background-color: rgb(155, 131, 131);
+  background-color: rgb(252, 251, 251);
   padding: 10px;
   text-align: center;
-  height: 85vh;
+  min-height: 80vh;
+  max-height: auto;
+
   border-radius: 5px;
   margin-top: 30px;
 }
