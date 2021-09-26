@@ -14,10 +14,8 @@ const Header = () => {
         <div className="header-content">
           <h1> Make your Company Best Skill Full Person:</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            corrupti optio deleniti, natus atque ratione numquam minus
-            blanditiis eos esse, temporibus consectetur veritatis quae minima
-            laudantium obcaecati non expedita explicabo.
+            Are you looking for Employe for establish company? Visited Our
+            website and Hired skill full person
           </p>
           <h2>Minimum bagget : 10 milion per year </h2>
         </div>

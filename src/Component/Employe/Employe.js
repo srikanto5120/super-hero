@@ -7,23 +7,25 @@ const Employe = (props) => {
   const { name, img, selary, age, skill, country, exprience } = props.employe;
   return (
     <div className="employe">
-      <img src={img} alt="" />
-      <h3>Name:{name}</h3>
-      <h3>Skill: {skill}</h3>
+      <div className="employe-img">
+        <img src={img} alt="" />
+      </div>
+      <h4>Name:{name}</h4>
+      <p>Skill: {skill}</p>
       <p>Exprience:{exprience} year</p>
-      <h5>Age:{age}</h5>
-      <h5>Country:{country}</h5>
-      <h4>Avarage Salery :$ {selary} per month </h4>
+      <p>Age:{age}</p>
+      <p>Country:{country}</p>
+      <p>Avarage Salery :$ {selary} per month </p>
       <span>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-linkedin"></i>
+        <i className="fab fa-facebook"></i>
+        <i className="fab fa-linkedin"></i>
       </span>
       <br />
       <button
         onClick={() => props.handleButton(props.employe)}
         className="add-card-btn"
       >
-        <i class="fas fa-shopping-cart"></i>
+        <i className="fas fa-shopping-cart"></i>
         add to cart
       </button>
     </div>

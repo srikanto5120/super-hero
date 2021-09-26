@@ -1,10 +1,10 @@
 import React from "react";
+import ShowName from "../ShowName/ShowName";
 import "./Cart.css";
 
 const Cart = (props) => {
   const { carts } = props;
 
-  const name = carts.map((name) => name.name);
   const totalSelery = carts.reduce(
     (previous, carts) => previous + carts.selary,
     0
@@ -12,10 +12,12 @@ const Cart = (props) => {
   return (
     <div>
       <h1 className="cart-icon">
-        Cart: <i class="fas fa-shopping-cart"></i>
+        Cart: <i className="fas fa-shopping-cart"></i>
       </h1>
       <p> Total Amount $:{totalSelery.toFixed(2)}</p>
-      <p> {name}</p>
+      {carts.map((cartName) => (
+        <ShowName key={cartName.key} cartName={cartName}></ShowName>
+      ))}
       <button className="hired-btn">Hired</button>
     </div>
   );
