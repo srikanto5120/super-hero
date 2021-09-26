@@ -12,7 +12,7 @@ const Cart = (props) => {
   return (
     <div>
       <h1 className="cart-icon">
-        add: <i class="fas fa-shopping-cart"></i>
+        Cart: <i class="fas fa-shopping-cart"></i>
       </h1>
       <p> Total Amount $:{totalSelery.toFixed(2)}</p>
       <p> {name}</p>
