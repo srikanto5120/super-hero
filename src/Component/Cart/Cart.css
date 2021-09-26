@@ -1,0 +1,12 @@
+.cart-icon {
+  text-align: center;
+  color: antiquewhite;
+}
+.hired-btn {
+  background-color: #708090;
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.employes {
+  display: flex;
+}
+.employes-container {
+  margin-left: 50px;
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cart-container {
+  width: 20%;
+  background-color: rgb(155, 131, 131);
+  padding: 10px;
+  text-align: center;
+  height: 85vh;
+  border-radius: 5px;
+  margin-top: 30px;
+}

@@ -1,0 +1,33 @@
+.employe {
+  background-color: #c0c0c0;
+  margin: 30px 20px 10px 0;
+  border-radius: 10px;
+
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease-in;
+}
+.employe:hover {
+  transform: translate(3px, -4px);
+  border-radius: 15px;
+  box-shadow: -6px 0px 8px black;
+}
+.employe img {
+  border-radius: 50%;
+  border: 1px solid #555;
+  margin-top: -30px;
+  width: 150px;
+}
+.add-card-btn {
+  background-color: #708090;
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+span {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
